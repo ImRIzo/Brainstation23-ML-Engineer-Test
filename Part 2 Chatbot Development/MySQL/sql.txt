@@ -1,0 +1,31 @@
+DROP DATABASE IF EXISTS `Online_Retail_Data_Set`;
+CREATE DATABASE `Online_Retail_Data_Set`;
+USE `Online_Retail_Data_Set`;
+
+CREATE TABLE Customers (
+    CustomerID INT PRIMARY KEY,
+    Country VARCHAR(255)
+);
+
+CREATE TABLE Products (
+    ProductID INT AUTO_INCREMENT PRIMARY KEY,
+    StockCode VARCHAR(255) UNIQUE,
+    Description VARCHAR(255)
+);
+
+CREATE TABLE Invoices (
+    InvoiceNo INT PRIMARY KEY,
+    InvoiceDate DATETIME,
+    CustomerID INT,
+    FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID)
+);
+
+CREATE TABLE Invoice_Items (
+    InvoiceNo INT,
+    ProductID INT,
+    Quantity INT,
+    UnitPrice FLOAT,
+    FOREIGN KEY (InvoiceNo) REFERENCES Invoices(InvoiceNo),
+    FOREIGN KEY (ProductID) REFERENCES Products(ProductID)
+);
+

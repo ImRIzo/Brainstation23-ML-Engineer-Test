@@ -1,0 +1,7 @@
+1. Download Online Retail Data Set.csv from here: https://drive.google.com/file/d/1q37_ZhKvWK97zY779N69OLznx9kgnErS/view?usp=sharing
+   and place it in this directory
+
+2. install required modules by this command pip install -r requirements.txt
+
+3. open 1_Model_Implementation.ipynb with jupyet notebook and click Run All.
+   Once the Run All is clicked every will be excuted without any error
