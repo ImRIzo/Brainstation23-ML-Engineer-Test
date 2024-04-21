@@ -14,4 +14,6 @@ You can import the database according the screenshot on the same directory - imp
 
 2. install required modules using requirements.txt : pip install -r requirements.txt
 
-3. command: python main.py  to run the application
+3. edit the database.py file change database username, pass .......
+
+4. command: python main.py  to run the application
