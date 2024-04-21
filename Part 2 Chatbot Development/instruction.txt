@@ -17,3 +17,10 @@ You can import the database according the screenshot on the same directory - imp
 3. edit the database.py file change database username, pass .......
 
 4. command: python main.py  to run the application
+
+
+Note: The bot is mostly hardcoded
+
+
+
+No documentation
