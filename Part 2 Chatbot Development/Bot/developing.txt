@@ -1,6 +1,0 @@
-it takes time to develop a bot.... 3 days not enough.
-
-IDEA: 
-
-1. Connecting ChatGPT and Langchain ans Database would be best for perfomance
-2. We can use RASA framework
